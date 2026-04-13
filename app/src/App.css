@@ -1,0 +1,22 @@
+h1 {
+  margin-top: 1rem;
+}
+
+button {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 20px;
+}
+
+input[type='text'] {
+  padding: 6px;
+  font-size: 18px;
+}
