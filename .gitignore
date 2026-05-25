@@ -1,0 +1,43 @@
+# dependencies
+node_modules
+package-lock.json
+
+# secrets
+.env
+.env.local
+packages/hardhat/.env
+packages/nextjs/.env.local
+
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# eslint
+.eslintcache
+
+# misc
+.DS_Store
+
+# IDE
+.vscode
+.idea
+
+# cli
+dist
+
+# AI / local dev tooling (not needed for course repo)
+.agents/
+.claude/
+.cursor/
+.opencode/
+.mcp.json
+opencode.json
+AGENTS.md
+CLAUDE.md
+
+# report PDFs (optional local only)
+docs/otchet/*.pdf
